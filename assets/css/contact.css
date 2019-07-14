@@ -1,0 +1,208 @@
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    height: 100%
+}
+
+.page {
+    background-image: url("../images/bg.png")
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto
+}
+
+#us {
+    text-align: justify;
+    color: #4aaaa5;
+    padding-right: 80%;
+    margin-left: 10px;
+    background: #ffffff;
+    font-size: larger;
+    border-bottom: 2px solid #666666;
+}
+
+#content p {
+    text-align: justify;
+}
+
+#header {
+    background-color: #ffffff;
+    height: 60px;
+    clear: both;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    border: solid #cccccc;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    border-right: 1px solid #bbb;
+    margin-bottom: 20px;
+    margin-right: auto;
+    padding: 4px;
+    text-align: center;
+}
+
+li:first-child {
+    border-right: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #777777
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0
+}
+
+#Ahmed {
+    background: #4aaaa5;
+    padding-top: auto;
+    padding-bottom: 10px;
+    font-size: larger;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-left: 0;
+    margin-left: 0
+}
+
+input,
+label {
+    display: block
+}
+
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#Message {
+    width: 500px;
+    margin: 10px
+}
+
+input[type=submit] {
+    padding: auto;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 100px
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#footer {
+    clear: both;
+    bottom: 2px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: solid #4aaaa5
+}
+
+@media screen and (max-width: 980px) {
+    .one {
+        display: inline-block
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #Ahmed {
+        color: greenyellow;
+        width: 50%
+    }
+    .container {
+        margin: 10px;
+        padding: 10px;
+        width: 80%;
+        display: block;
+    }
+    .image1 {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        max-width: 400px;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #Ahmed {
+        color: purple;
+        /* position: static; */
+        width: 100%
+    }
+    #header {
+        /* display: flex; */
+        width: 100%;
+        position: static;
+        margin: 0px;
+    }
+    #us {
+        padding: 1px;
+        margin: 0px;
+        font-size: x-large
+    }
+    .container {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        min-width: 100%;
+        min-height: 100%
+    }
+    #label {
+        font-size: x-large
+    }
+    #footer {
+        display: none;
+        visibility: hidden;
+    }
+    input[type=submit] {
+        width: 100%
+    }
+}
